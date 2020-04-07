@@ -1,32 +1,21 @@
 {
-  "name": "git-test",
+  "name": "nodeproject",
   "version": "1.0.0",
-  "description": "This is a test directory to learn node",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RamkiGanesh007/git-test.git"
-  },
-  "keywords": [
-    "test"
-  ],
-  "author": "Ganesh Kumar",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RamkiGanesh007/git-test/issues"
-  },
-  "homepage": "https://github.com/RamkiGanesh007/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   }
 }
