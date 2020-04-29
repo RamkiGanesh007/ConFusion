@@ -37,15 +37,6 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
-.modal-header {
-  background-color: #512DA8;
-  color: #fffaf0; }
-  .modal-header button {
-    color: #fffaf0; }
-    .modal-header button:hover {
-      color: #FFFFFF;
-      transition: 0.1s; }
-
 .carousel {
   background: #512DA8; }
   .carousel .carousel-item {
@@ -61,3 +52,11 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: #FFFAF0; }
+  .modal-header button {
+    color: #FFFAF0; }
+.modal-body {
+  background-color: #D1C4E9; }

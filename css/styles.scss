@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$flrwht:#fffaf0;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -55,7 +56,17 @@ body{
     padding: 10px;
 }
 
-
+.modal-header{
+    background-color: $background-dark;
+    color: $flrwht;
+    button{
+        color: $flrwht;
+        &:hover{
+            color: #FFFFFF;
+            transition: 0.1s;
+        }
+    }
+}
 
 .carousel {
     background:$background-dark;
