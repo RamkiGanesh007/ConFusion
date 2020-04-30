@@ -7,8 +7,8 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "startscss":"npm run scss",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "watchscss":"onchange 'css/*.scss' -- npm run scss"
   },
   "author": "Ganesh Kumar",
   "license": "ISC",
