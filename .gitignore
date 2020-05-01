@@ -1,3 +1,4 @@
 node_modules
+node_modules/powershell/*
 dist
-!node_modules/.keep
+!node_modules/powershell/.keep
